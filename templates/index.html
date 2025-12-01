@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AI Notebook – Auto-Continue Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-title">
+      <span class="logo">📝</span>
+      <h1>AI Notebook</h1>
+    </div>
+    <div class="app-meta">
+      <span class="badge">Model: {{ ollama_model }}</span>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <section class="note-panel">
+      <div class="note-header">
+        <h2>Your Note</h2>
+        <span id="char-count" class="char-count">0 characters</span>
+      </div>
+
+      <textarea id="note" class="note-textarea"
+        placeholder="Start writing your note here. Select a passage or just place your cursor, then click “✨ Continue with AI”…"></textarea>
+
+      <div class="actions-bar">
+        <button id="continue-btn" class="primary-btn">
+          ✨ Continue with AI
+        </button>
+
+        <div class="hint">
+          Tip: Select part of the note to focus the AI on that passage.
+          If nothing is selected, it will use the whole note as context.
+        </div>
+      </div>
+
+      <div id="status" class="status-line"></div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <small>Powered by Flask + Ollama</small>
+  </footer>
+
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
