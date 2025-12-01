@@ -2,6 +2,8 @@
 
 A minimal notebook-style web app that continues your notes with a local Ollama model.
 
+![AI Continuation Note screenshot](https://github.com/stingraze/AI-Continuation-Note/blob/main/ai-continuation-note.jpg)
+
 ## Features
 
 - Notebook UI in the browser
