@@ -1,7 +1,12 @@
 # AI Continuation Note (Flask + Ollama)
 
 A minimal notebook-style web app that continues your notes with a local Ollama model.
+
 This is useful to writers who have written parts of a sentence but don't know the continutation. The AI will fill the rest for the writer in that case.
+
+Created with the help of AI.
+
+(C)Tsubasa Kato - 2025 - Inspire Search Corp.
 
 ![AI Continuation Note screenshot](https://github.com/stingraze/AI-Continuation-Note/blob/main/ai-continuation-note.jpg)
 
