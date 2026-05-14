@@ -22,7 +22,7 @@ Created with the help of AI.
 1. Make sure [Ollama](https://ollama.com/) is installed and running:
 
    ```bash
-   ollama pull llama3.1:8b
+   ollama pull llama3.2:3b
    ollama serve
    ```
 
