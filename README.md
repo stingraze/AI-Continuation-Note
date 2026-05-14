@@ -14,8 +14,8 @@ Created with the help of AI.
 
 - Notebook UI in the browser
 - Highlight a passage or just place the cursor
-- Click "✨ Continue with AI" to let the model continue your note
-- Uses Flask (Python 3) + Ollama `/api/chat` endpoint
+- Click "✨ Continue with AI" to stream the model's continuation into your note word by word
+- Uses Flask (Python 3) + Ollama `/api/chat` streaming endpoint
 
 ## Setup
 
