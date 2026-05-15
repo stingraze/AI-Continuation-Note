@@ -6,7 +6,9 @@ This is useful to writers who have written parts of a sentence but don't know th
 
 Created with the help of AI.
 
-(C)Tsubasa Kato - 2025 - Inspire Search Corp.
+(C)Tsubasa Kato - 2025-2026 - Inspire Search Corp.
+
+Update 5/15/2026: This app now supports streaming from Ollama. 
 
 ![AI Continuation Note screenshot](https://github.com/stingraze/AI-Continuation-Note/blob/main/ai-continuation-note.jpg)
 
